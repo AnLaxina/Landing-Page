@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+    gap: 48px;
+    list-style-type: none;
+}
+
+.section1 {
+    background-color: #1f2937;
+}
