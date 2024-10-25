@@ -14,6 +14,10 @@ header {
     color: #f9faf8;
 }
 
+img {
+    width: 300px;
+}
+
 a {
     text-decoration: none;
     color: #e5e7eb;
@@ -25,6 +29,30 @@ nav ul {
     gap: 48px;
     list-style-type: none;
 }
+
+section h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.image-section {
+    display: flex;
+}
+
+.image-text {
+    display: flex;
+    color: #e5e7eb;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px;
+}
+
+.image-text p {
+    margin: 0;
+}
+
 
 .section1 {
     background-color: #1f2937;
