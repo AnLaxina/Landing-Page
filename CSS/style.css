@@ -39,18 +39,31 @@ section h1 {
 
 .image-section {
     display: flex;
+    margin: 100px;
 }
 
 .image-text {
     display: flex;
     color: #e5e7eb;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 48px;
+    gap: 8px;
+    
 }
 
 .image-text p {
     margin: 0;
+}
+
+.image-text button {
+    width: 100px;
+    height: 35px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15%;
 }
 
 
