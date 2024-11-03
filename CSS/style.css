@@ -79,4 +79,22 @@ section h1 {
     align-items: center;
     gap: 16px;
     padding: 16px;
+    margin-bottom: 32px;
+}
+
+
+.info-section img {
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6;
+    border-radius: 10%;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    
 }
