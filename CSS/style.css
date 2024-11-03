@@ -98,3 +98,26 @@ section h1 {
     padding: 16px;
     
 }
+
+/* Start of Quote section */
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 64px;
+}
+
+.quote-section p {
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-section span {
+    font-weight: bold;
+    align-self: end;
+}
