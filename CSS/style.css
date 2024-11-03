@@ -70,3 +70,13 @@ section h1 {
 .section1 {
     background-color: #1f2937;
 }
+
+/* Start of CSS for Random Information section */
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
