@@ -145,3 +145,14 @@ section h1 {
     width: 100px;
     height: 35px;
 }
+
+/* Copyright Section */
+.copyright-section {
+    display: flex;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8
+
+}
