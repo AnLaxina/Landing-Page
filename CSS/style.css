@@ -39,7 +39,7 @@ section h1 {
 
 .image-section {
     display: flex;
-    margin: 100px;
+    margin: 64px;
 }
 
 .image-text {
@@ -63,7 +63,7 @@ section h1 {
     color: white;
     font-weight: bold;
     border: none;
-    border-radius: 15%;
+    border-radius: 10px;
 }
 
 
@@ -71,7 +71,7 @@ section h1 {
     background-color: #1f2937;
 }
 
-/* Start of CSS for Random Information section */
+/* Random Information section */
 .info-section {
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ section h1 {
     
 }
 
-/* Start of Quote section */
+/* Quote section */
 .quote-section {
     background-color: #e5e7eb;
     display: flex;
@@ -120,4 +120,28 @@ section h1 {
 .quote-section span {
     font-weight: bold;
     align-self: end;
+}
+
+/* Sign-up section */
+.sign-section {
+    display: flex;
+    gap: 32px;
+    justify-content: space-around;
+    width: inherit;
+    background-color: #3882F6;
+    color: white;
+    margin: 50px 100px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.sign-section button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: bold;
+    border: solid 2px;
+    border-radius: 10px;
+    align-self: center;
+    width: 100px;
+    height: 35px;
 }
